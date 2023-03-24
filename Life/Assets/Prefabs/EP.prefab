@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1226608035451106392}
   - component: {fileID: 5331510796050133305}
   - component: {fileID: -173060971524534100}
-  - component: {fileID: 9101228370641146991}
+  - component: {fileID: 4962867061975932256}
   m_Layer: 0
   m_Name: EP
   m_TagString: eat
@@ -54,7 +54,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 330201f508bcb404f9da23166e7f394c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -112,7 +112,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5, y: 5}
   m_EdgeRadius: 0
---- !u!114 &9101228370641146991
+--- !u!114 &4962867061975932256
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,6 +121,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 289722070084978876}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f79e268f141f754c96481c0ac59cdfb, type: 3}
+  m_Script: {fileID: 11500000, guid: 99736c4284469564fb922c51e61d518c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

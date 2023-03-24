@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1382446687413842962}
   - component: {fileID: 3112087168694531477}
-  - component: {fileID: -1250626277893044040}
   - component: {fileID: 3738597079551508305}
   - component: {fileID: 6166952112785027378}
   - component: {fileID: 8124720977343922146}
+  - component: {fileID: 7996983759841201354}
   m_Layer: 0
   m_Name: Hunter
   m_TagString: Hunter
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 4979933979448659782}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -56,7 +56,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -88,24 +88,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-1250626277893044040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4979933979448659782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77e0015e3c586f240821a79c66c993ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  food: {fileID: 9101228370641146991, guid: 5a257bc35e6cecd48b0cc6273d086ac0, type: 3}
-  speed: 75
-  health: 50
-  pH: 2
-  extraSpeed: 100
-  rigidbody: {fileID: 0}
 --- !u!50 &3738597079551508305
 Rigidbody2D:
   serializedVersion: 4
@@ -169,3 +151,23 @@ CircleCollider2D:
   m_Offset: {x: -0.021199465, y: 0}
   serializedVersion: 2
   m_Radius: 2.8588612
+--- !u!114 &7996983759841201354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4979933979448659782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4de713d87c689949a321418dbf49e64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startHealth: 100
+  healthRecovery: 100
+  healthToReproduction: 200
+  healthAfterReproduction: 100
+  timeToConsumeHealh: 0.1
+  speed: 50
+  extraSpeed: 75
+  healthForAcceleration: 75
