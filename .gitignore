@@ -60,3 +60,7 @@ crashlytics-build.properties
 
 
 Life/Library/
+Life/Logs
+Life/obj
+Life/Temp
+Life/UserSettings
